@@ -20,18 +20,18 @@ Install with:
 
 ```bash
 pip install pandas openpyxl
-
+```
 ## Parameters to set
 
-Inside the notebook, adjust the following:
-filename: name of your input Excel file
-location: full path to the folder containing your file
-fecha: experiment date (used for export file names)
-tdelta: time between reads (in seconds)
-jump: time (in minutes) used to define the baseline window for normalization
+- Inside the notebook, adjust the following:
+  filename: name of your input Excel file
+  location: full path to the folder containing your file
+  date: experiment date (used for export file names)
+  tdelta: time between reads (in seconds)
+  jump: time (in minutes) used to define the baseline window for normalization
 
 ## Output
 
-Two files (optional; you can uncomment these lines in the notebook):
-YYYYMMDD_Synergy.csv
-YYYYMMDD_Synergy.xlsx
+- Two files (optional; you can uncomment these lines in the notebook):
+  YYYYMMDD_Synergy.csv
+  YYYYMMDD_Synergy.xlsx
