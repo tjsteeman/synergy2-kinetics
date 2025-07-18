@@ -1,0 +1,13 @@
+# Ignore Excel data files
+*.xlsx
+*.xls
+*.csv
+
+# Ignore temporary Jupyter outputs
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# macOS system files
+.DS_Store
+
